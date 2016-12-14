@@ -1,0 +1,12 @@
+topics:
+  - topicName: balaji
+    partitions: 2
+    replication: 3
+    topicAction: CREATE
+    properties:
+      retention.ms: 10
+      max.message.bytes: 100
+  - topicName: my-java-topic
+    partitions: 3
+    replication: 2
+    topicAction: DELETE
